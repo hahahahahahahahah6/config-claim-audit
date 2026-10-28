@@ -17,7 +17,7 @@ config-claim-audit ./project --fail-on HIGH
 config-claim-audit ./project --ignore example-env-default-mismatch
 config-claim-audit ./project --verbose
 config-claim-audit --version
-python -m config_claim_audit ./project
+python3 -m config_claim_audit ./project
 ```
 
 The path defaults to the current directory. `--fail-on MEDIUM` is the default;
